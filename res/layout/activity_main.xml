@@ -56,8 +56,7 @@
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/editText2"
         android:layout_marginTop="39dp"
-        android:text="OK"
-        android:onClick="switchO" />
+        android:text="OK" />
 
     <Button
         android:id="@+id/button2"
@@ -66,8 +65,7 @@
         android:layout_alignBaseline="@+id/button1"
         android:layout_alignBottom="@+id/button1"
         android:layout_alignParentRight="true"
-        android:text="Cancel"
-        android:onClick="switchC" />
+        android:text="Cancel" />
 
     <TextView
         android:id="@+id/textView3"
