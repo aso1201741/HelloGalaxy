@@ -1,6 +1,7 @@
 package com.example.hellogalaxy;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
@@ -30,6 +31,8 @@ public class MainActivity extends Activity implements View.OnClickListener{
 		switch(v.getId()){
 		case R.id.button1:
 			tvresult.setText(et1.getText().toString() + et2.getText().toString());
+			Intent vIntent = new Intent(this, MsgActivity.class);
+			startActivity(vIntent);
 			break;
 		case R.id.button2:
 			et1.setText("");
